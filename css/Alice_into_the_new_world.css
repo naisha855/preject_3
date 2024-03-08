@@ -157,10 +157,19 @@ font-weight:bold;
         color: white;
         text-align:center;
         margin-top:80px;
+        display:none;
+    }
+
+    .typing3{
+        font-size:22px;
+        color: white;
+        text-align:center;
+        margin-top:80px;
     }
 
     .typing_txt3 li{
         margin-bottom: 20px;
+        
     }
 
     .section_page_3_img {
@@ -846,10 +855,18 @@ font-weight:bold;
         color: white;
         text-align:center;
         margin-top:80px;
+        display:none;
     }
 
     .typing_txt3 li{
         margin-bottom: 20px;
+    }
+
+    .typing3{
+        font-size:22px;
+        color: white;
+        text-align:center;
+        margin-top:80px;
     }
 
     .section_page_3_img {
@@ -1551,10 +1568,18 @@ font-weight:bold;
         color: white;
         text-align:center;
         margin-top:80px;
+        display:none;
     }
 
     .typing_txt3 li{
         margin-bottom: 20px;
+    }
+
+    .typing3{
+        font-size:22px;
+        color: white;
+        text-align:center;
+        margin-top:80px;
     }
 
     .section_page_3_img {

@@ -9,7 +9,6 @@
 
 .typing_txt{
     display:none;
-    overflow:hidden;
 }
 
 .typing{
@@ -20,7 +19,9 @@
 
 .section_2 li:nth-of-type(1){display:flex;}
 
-@media screen and (max-width: 769px) {
+.section_1 p{display:none;}
+
+@media screen and (max-width: 768px) {
 
     /* mov */
 
@@ -53,12 +54,23 @@
         width: 100%;
         height: 950px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: column;
         align-items: center;
     }
 
+    .typing{
+        margin-bottom:350px;
+        color: #69FBCE;
+        font-weight:bold;
+    }
+
+
+
+    .typing li{margin-top:20px;}
+
     .section_1_logo {
+        margin-top:100px;
         width: 400px;
         height: 200px;
     }
@@ -100,6 +112,37 @@
         align-items: center;
     }
 
+    .section_page_2 li{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .typing_txt2{
+        display:none;
+    }
+
+    .typing2{
+        height:auto;
+        font-size: 24px; color:white;
+         text-align:center;
+    }
+
+    .typing2 li{
+        margin-top: 60px;
+    }
+
+    .typing2 li:nth-of-type(3),
+    .typing2 li:nth-of-type(6){
+font-size:32px;
+color: #69FBCE;
+font-weight:bold;
+    }
+
     .section_page_3 {
         width: 100%;
         height: 950px;
@@ -107,6 +150,17 @@
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
+    }
+
+    .typing_txt3{
+        font-size:22px;
+        color: white;
+        text-align:center;
+        margin-top:80px;
+    }
+
+    .typing_txt3 li{
+        margin-bottom: 20px;
     }
 
     .section_page_3_img {
@@ -215,10 +269,6 @@ align-items:flex-end;
     height:100%;
 }
 
-.section_2_page3{
-    width:33.3%;
-    height:100%;
-}
 
     .section_2_button_page {
         width: 100%;
@@ -248,6 +298,22 @@ align-items:flex-end;
         width:100%;
         height:100%;
     position:absolute;
+    }
+
+    .section_2_page3_text{
+        width:100%;
+        height:auto;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+    }
+
+    .section_2_page3_text h2{
+        z-index:1;
+        color:black;
+        font-size:40px;
+        margin-bottom: 30px;
     }
 
     /* 전시 소개 페이지 */
@@ -359,11 +425,7 @@ align-items:flex-end;
         justify-content: space-between;
     }
 
-    .section_3_chapterpage_buttonpage_prev {
-        width: 58px;
-        height: 192px;
-    }
-
+    .section_3_chapterpage_buttonpage_prev,
     .section_3_chapterpage_buttonpage_next {
         width: 58px;
         height: 192px;
@@ -371,7 +433,8 @@ align-items:flex-end;
 
     .section_3_chapterpage_buttonpage_prev img,
     .section_3_chapterpage_buttonpage_next img {
-        display: none;
+        width:58px;
+        height: 100%;
     }
 
     /* 전시 구성 */
@@ -446,6 +509,7 @@ align-items:flex-end;
     .section_5_ticket h5 {
         font-size: 48px;
         color: #67FE01;
+        font-family: 'TTHakgyoansimMabeopsaR';
     }
 
     .section_5_text {
@@ -478,7 +542,7 @@ align-items:flex-end;
 
     .section_5_2 {
         width: 100%;
-        height: 2500px;
+        height: 3500px;
         background-color: #913CF1;
         display: flex;
         flex-direction: column;
@@ -492,17 +556,18 @@ align-items:flex-end;
         font-size: 64px;
         color: #69FBCE;
         margin-top: 80px;
-
+font-family: 'TTHakgyoansimMabeopsaR';
     }
 
     .section_5_2_time {
         width: 80%;
         height: auto;
-        font-size: 42px;
+        font-size: 30px;
         color: white;
         display: flex;
         flex-wrap: wrap;
         margin-top: 200px;
+        line-height: 100px;
     }
 
     .section_5_2_time_list {
@@ -524,11 +589,10 @@ align-items:flex-end;
     .section_5_2_text {
         width: 80%;
         height: auto;
-        font-size: 12px;
-        color: #AF7EE1;
+        font-size: 19px;
+        color: white;
         text-align: center;
-        margin-top: 100px;
-        line-height: 20px;
+        line-height: 35px;
     }
 
 
@@ -730,6 +794,14 @@ align-items:flex-end;
         align-items: center;
     }
 
+    .typing{
+        margin-bottom:350px;
+        color: #69FBCE;
+        font-weight:bold;
+    }
+
+    .typing li{margin-top:20px;}
+
     .section_page_2 {
         width: 100%;
         height: 950px;
@@ -739,6 +811,27 @@ align-items:flex-end;
         align-items: center;
     }
 
+    .typing_txt2{
+        display:none;
+    }
+
+    .typing2{
+        height:auto;
+        font-size: 24px; color:white;
+         text-align:center;
+    }
+
+    .typing2 li{
+        margin-top: 60px;
+    }
+
+    .typing2 li:nth-of-type(3),
+    .typing2 li:nth-of-type(6){
+font-size:32px;
+color: #69FBCE;
+font-weight:bold;
+    }
+
     .section_page_3 {
         width: 100%;
         height: 950px;
@@ -746,6 +839,17 @@ align-items:flex-end;
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
+    }
+
+    .typing_txt3{
+        font-size:22px;
+        color: white;
+        text-align:center;
+        margin-top:80px;
+    }
+
+    .typing_txt3 li{
+        margin-bottom: 20px;
     }
 
     .section_page_3_img {
@@ -841,7 +945,7 @@ align-items:flex-end;
     
     .section_2_page2_character{
         width:300px;
-        height:300x;
+        height:300px;
         margin-bottom:240px;
         position: absolute;
         margin-left:30%;
@@ -905,6 +1009,14 @@ align-items:flex-end;
         display:flex;
         align-items:center;
         justify-content:center;
+        flex-direction:column;
+    }
+
+    .section_2_page3_text h2{
+        z-index:1;
+        color:black;
+        font-size:50px;
+        margin-bottom: 30px;
     }
 
     /* 전시 소개 페이지 */
@@ -938,7 +1050,7 @@ align-items:flex-end;
     .section_3_textpage h3 {
         color: #69FBCE;
         font-size: 32px;
-        margin-top: 10;
+        margin-top: 10px;
     }
 
     .section_3_linepage {
@@ -1102,6 +1214,7 @@ align-items:flex-end;
     .section_5_ticket h5 {
         font-size: 48px;
         color: #67FE01;
+        font-family: 'TTHakgyoansimMabeopsaR';
     }
 
     .section_5_text {
@@ -1135,7 +1248,7 @@ align-items:flex-end;
 
     .section_5_2 {
         width: 100%;
-        height: 2000px;
+        height: 2500px;
         background-color: #913CF1;
         display: flex;
         flex-direction: column;
@@ -1149,6 +1262,7 @@ align-items:flex-end;
         text-align: center;
         font-size: 64px;
         color: #69FBCE;
+        font-family: 'TTHakgyoansimMabeopsaR';
     }
 
     .section_5_2_time {
@@ -1166,6 +1280,8 @@ align-items:flex-end;
         display: flex;
         flex-direction: column;
         margin-bottom: 60px;
+        font-size: 36px;
+        line-height: 100px;
     }
 
 
@@ -1179,9 +1295,10 @@ align-items:flex-end;
     .section_5_2_text {
         width: 80%;
         height: auto;
-        font-size: 20px;
-        color: #AF7EE1;
+        font-size: 24px;
+        color: white;
         text-align: center;
+        line-height: 35px;
     }
 
 
@@ -1382,6 +1499,14 @@ align-items:flex-end;
         align-items: center;
     }
 
+    .typing{
+        margin-bottom:350px;
+        color: #69FBCE;
+        font-weight:bold;
+    }
+
+    .typing li{margin-top:20px;}
+
     .section_page_2 {
         width: 100%;
         height: 950px;
@@ -1391,6 +1516,27 @@ align-items:flex-end;
         align-items: center;
     }
 
+    .typing_txt2{
+        display:none;
+    }
+
+    .typing2{
+        height:auto;
+        font-size: 24px; color:white;
+         text-align:center;
+    }
+
+    .typing2 li{
+        margin-top: 60px;
+    }
+
+    .typing2 li:nth-of-type(3),
+    .typing2 li:nth-of-type(6){
+font-size:32px;
+color: #69FBCE;
+font-weight:bold;
+    }
+    
     .section_page_3 {
         width: 100%;
         height: 950px;
@@ -1398,6 +1544,17 @@ align-items:flex-end;
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
+    }
+
+    .typing_txt3{
+        font-size:22px;
+        color: white;
+        text-align:center;
+        margin-top:80px;
+    }
+
+    .typing_txt3 li{
+        margin-bottom: 20px;
     }
 
     .section_page_3_img {
@@ -1494,7 +1651,7 @@ align-items:flex-end;
     
     .section_2_page2_character{
         width:300px;
-        height:300x;
+        height:300px;
         margin-bottom:240px;
         position: absolute;
         margin-left:30%;
@@ -1550,6 +1707,22 @@ align-items:flex-end;
     width:100%;
     height:100%;
 position:absolute;
+}
+
+.section_2_page3_text{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.section_2_page3_text h2{
+    z-index:1;
+    color:black;
+    font-size:50px;
+    margin-bottom: 30px;
 }
 
     /* 전시 소개 페이지 */
@@ -1746,6 +1919,7 @@ position:absolute;
     .section_5_ticket h5 {
         font-size: 64px;
         color: #67FE01;
+        font-family: 'TTHakgyoansimMabeopsaR';
     }
 
     .section_5_text {
@@ -1799,15 +1973,21 @@ position:absolute;
         text-align: center;
         font-size: 64px;
         color: #69FBCE;
+        font-family: 'TTHakgyoansimMabeopsaR';
     }
 
     .section_5_2_time {
         width: 80%;
         height: auto;
-        font-size: 48px;
+        font-size: 36px;
         color: white;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section_5_2_time_list:nth-of-type(9){
+        margin-right: 200px;
     }
 
     .section_5_2_time_list {
@@ -1817,6 +1997,7 @@ position:absolute;
         justify-content: space-around;
         margin-bottom: 60px;
         text-align: center;
+        
     }
 
     .line {
@@ -1828,9 +2009,10 @@ position:absolute;
     .section_5_2_text {
         width: 80%;
         height: auto;
-        font-size: 30px;
-        color: #AF7EE1;
+        font-size: 19px;
+        color: white;
         text-align: center;
+        line-height: 35px;
     }
 
     /* 전시 장소 */
